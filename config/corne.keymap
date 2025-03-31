@@ -1,4 +1,4 @@
-/*
+u/*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
@@ -54,9 +54,9 @@
 
             display-name = "Raise";
             bindings = <
-&kp TAB    &kp EXCL        &kp AT         &kp HASH      &kp DLLR  &kp PRCNT    &msc SCRL_UP    &mkp LCLK  &mkp RCLK  &kp F12   &kp DEL   &kp BSPC
-&kp LCTRL  &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LPAR  &kp RPAR     &msc SCRL_DOWN  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT  &kp UNDERSCORE  &trans         &trans        &trans    &trans       &kp MINUS       &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+&kp TAB    &kp EXCL        &kp AT         &kp HASH      &kp DLLR  &kp PRCNT    &mmv SCROLL_UP    &mkp LCLK  &mkp RCLK  &kp F12   &kp DEL   &kp BSPC
+&kp LCTRL  &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp LPAR  &kp RPAR     &mmv SCROLL_DOWN  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&kp LSHFT  &kp UNDERSCORE  &trans         &trans        &trans    &kp MINUS    &kp MINUS       &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                                           &kp LGUI      &trans    &kp SPACE    &kp RET         &trans     &kp RALT
             >;
         };
